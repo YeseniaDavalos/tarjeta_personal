@@ -22,7 +22,7 @@ const onTwitterPressHandler = () => {
 };
 
 const onAtPressHandler = () => {
-  Linking.openURL("https://www.linkedin.com/in/yesenia-davalos-buitrago-developer/");
+  Linking.openURL("yeseniadavalos27@gmail.com");
 };
 
 const onInstagramPressHandler = () => {
@@ -48,7 +48,7 @@ export default function Index() {
           />
           <Text style={styles.title}>Yesenia Dávalos Buitrago</Text>
 
-          {/* Pasamos las funciones como props */}
+          
           <Iconos
             onGithubPress={onGithubPressHandler}
             onTwitterPress={onTwitterPressHandler}
@@ -84,7 +84,7 @@ export default function Index() {
   );
 }
 
-// Estilos
+
 const styles = StyleSheet.create({
   contenido: {
     flex: 1,
